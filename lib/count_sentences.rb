@@ -16,7 +16,8 @@ class String
 
   def count_sentences
     sentences = []
-    self.split.each do |word|self.split(/\.|\?|\!/).delete_if {|w| w.size < 2}.size
+    # self.split.each do |word|
+  self.split(/\.|\?|\!/).delete_if {|w| w.size < 2}.size
 
       if word.include?(".", "?", "!")
        sentences << word 
