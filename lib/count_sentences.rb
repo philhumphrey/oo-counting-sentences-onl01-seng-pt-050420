@@ -29,7 +29,7 @@ class String
       # elsif 
       # word.include?("!")
       # sentences << word
-    else
+    # else
   end
 end
       sentences.length
