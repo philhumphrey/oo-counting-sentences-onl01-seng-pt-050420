@@ -15,14 +15,14 @@ class String
   end
 
   def count_sentences
-    sentences = []
+    # sentences = []
     # self.split.each do |word|
   self.split(/\.|\?|\!/).delete_if {|w| w.size < 2}.size
 
-      if word.include?(".", "?", "!")
-       sentences << word 
+      # if word.include?(".", "?", "!")
+      # sentences << word 
         
-      # elsif 
+      # # elsif 
       # word.include?("?")
       # sentences << word
       
