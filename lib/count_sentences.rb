@@ -17,16 +17,16 @@ class String
   def count_sentences
     sentences = []
     self.split.each do |word|
-      if word.include?(".")
+      if word.include?(".", "?", "!")
        sentences << word 
         
-      elsif 
-      word.include?("?")
-      sentences << word
+      # elsif 
+      # word.include?("?")
+      # sentences << word
       
-      elsif 
-      word.include?("!")
-      sentences << word
+      # elsif 
+      # word.include?("!")
+      # sentences << word
     else
   end
 end
